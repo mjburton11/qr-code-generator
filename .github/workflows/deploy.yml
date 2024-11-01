@@ -35,4 +35,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy
-        run: aws s3 sync ./build s3://pack-it
+        run: aws s3 sync ./build s3://qr-property-app
